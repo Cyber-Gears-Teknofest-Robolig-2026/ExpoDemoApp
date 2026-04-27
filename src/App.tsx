@@ -8,8 +8,8 @@ import {
   View, 
   Pressable 
 } from 'react-native';
-import WebApp from './web/App';
-import AndroidApp from './android/App';
+import WebApp from '@/src/web/App';
+import AndroidApp from '@/src/android/App';
 
 export default function App() {
   switch (Platform.OS) {

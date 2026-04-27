@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, Pressable, StyleSheet, Image, ActivityIndicator } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
-import splashIcon from "../../assets/splash-icon.png";
+import splashIcon from "@/assets/images/splash-icon.png";
 
 // Splash kilitlenmesini en dışta başlatmak en sağlıklısıdır
 SplashScreen.preventAutoHideAsync();
