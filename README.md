@@ -6,7 +6,8 @@ Expo React-Native ile yapılmış bir demo uygulamadır.
 
 * Git
 * NodeJS
-* Android Studio (Android telefonlar için)
+* Android Studio (Android cihazlar için)
+* xcode (iOS cihazlar için)
 * Herhangi bir browser (Chrome, Firefox gibi)
 * VS Code veya Windsurf gibi bir editör
 
