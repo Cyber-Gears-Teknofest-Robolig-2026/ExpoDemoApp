@@ -10,6 +10,7 @@ Expo React-Native ile yapılmış bir demo uygulamadır.
 * xcode (iOS cihazlar için)
 * Herhangi bir browser (Chrome, Firefox gibi)
 * VS Code veya Windsurf gibi bir editör
+* Bluestacks (Android emülatör için)
 
 ### Kurulumlar:
 
