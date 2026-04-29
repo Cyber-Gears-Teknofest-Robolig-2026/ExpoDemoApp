@@ -1,7 +1,7 @@
 // ANDROID VERSION (src/android/App.tsx)
 
 import React, { useEffect, useState } from "react";
-import { View, Text, Pressable } from "react-native";
+import { View, Text, Pressable, Platform } from "react-native";
 import { styles } from "./styles";
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.card}>
         <Text style={styles.platform}>
-          Your Platform: <Text style={styles.platformValue}>android</Text>
+          Your Platform: <Text style={styles.platformValue}>{Platform.OS}</Text>
         </Text>
 
         <Text style={styles.title}>Count Application</Text>
