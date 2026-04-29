@@ -1,29 +1,48 @@
 {
   "expo": {
-    "name": "ExpoDemoApp",
+    "name": "Expo Demo App",
     "slug": "ExpoDemoApp",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "scheme": "expodemoapp",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "image": "./assets/images/icon.png",
+      "dark": {
+        "image": "./assets/images/icon.png",
+        "backgroundColor": "#ff0000"
+      },
+      "imageWidth": 200
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "image": "./assets/images/icon.png",
+        "dark": {
+          "image": "./assets/images/icon.png",
+          "backgroundColor": "#000000"
+        },
+        "imageWidth": 200
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.burakcanturk.ExpoDemoApp"
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "image": "./assets/images/icon.png",
+        "dark": {
+          "image": "./assets/images/icon.png",
+          "backgroundColor": "#ff0000"
+        },
+        "imageWidth": 200
+      },
+      "package": "com.cybergears.ExpoDemoApp"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
